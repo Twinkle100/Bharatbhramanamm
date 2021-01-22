@@ -1,0 +1,141 @@
+body{
+    background-color: #c6fced;
+}
+label{
+  color:#fffaa4;
+}
+.bha{
+font-size:3rem;
+}
+.formbox{
+background-color: #03506f;
+  margin-top: 100px;
+  border: solid 10px ;
+  border-color: #8ad7c1;
+  width:40%;
+  margin-left: 30%;
+}
+.top{
+  font-family: 'Pacifico', "cursive";
+  font-size: 2.5rem;
+  width:20%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+
+.gender{
+  margin-left: 3px;
+  position: relative;
+}
+.labelphone{
+margin-left: 3px;
+margin-top:15px;
+}
+#inlineFormCustomSelect{
+ height:25%;
+  width:520px;
+}
+#phone{
+margin-top:10px;
+  height:33px;
+  width:470px;
+}
+.submit{
+  margin-top: 15px;
+    margin: 0 70px ;
+    width:25%;
+
+}
+.cancel{
+  margin-top: 15px;
+    margin: 0 70px ;
+    width:25%;
+  }
+
+
+.footerf{
+  margin-top: auto;
+}
+.formheading{
+  font-size: 2.5rem;
+  text-align: center;
+
+}
+@media (max-width:1388px) and (min-width:1029px) {
+
+  .formbox{
+    margin-top: 20px;
+  }
+  #inlineFormCustomSelect{
+
+    width:300px;
+  }
+  #phone{
+  margin-top:10px;
+    height:33px;
+    width: 300px;
+    border-radius:5%;
+  }
+  .submit{
+    margin-top: 5px;
+      margin: 0 50px ;
+      width:25%;
+      position: relative;
+  }
+  .cancel{
+    margin-top: 5px;
+      margin: 0 50px ;
+      width:25%;
+    }
+}
+@media (max-width:1028px) {
+  .bha{
+  font-size:2.5rem;
+
+  }
+    .top{
+    font-family: 'Pacifico', "cursive";
+    width:20%;
+    margin-left: 2%;
+  }
+  .formheading{
+    margin-top: 100px;
+    font-size: 2rem;
+    margin-left: -120px;
+
+  }
+  #inlineFormCustomSelect{
+    height:35px;
+    width:140px;
+  }
+  .formbox{
+  background-color: #03506f;
+    margin-top: 100px;
+    border: solid 10px ;
+    border-color: #8ad7c1;
+    width:280px;
+    margin-left: 25px;
+  }
+  .labelphone{
+  margin-left: 3px;
+  margin-top:15px;
+  }
+  #phone{
+  margin-top:10px;
+    height:33px;
+    width:140px;
+  }
+  .submit{
+    margin-top: 15px;
+      margin: 0 15px ;
+      width:35%;
+
+  }
+  .cancel{
+    margin-top: 15px;
+      margin: 0 15px ;
+      width:35%;
+    }
+
+}
