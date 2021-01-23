@@ -95,14 +95,18 @@ margin-bottom: -50px;
 }
 @media (max-width:728px) {
   table{
+
     border: 5px solid black;
     padding:2px;
       text-align: left;
-      margin-left: 15%;
+    margin-left: 01px;
+  }
+  .table-container{
+    margin-left: 0;
   }
   .btn{
     margin-top:10px;
-    margin-left:43%;
+    margin-left:23%;
   }
   .bha{
       color: #03506f;
